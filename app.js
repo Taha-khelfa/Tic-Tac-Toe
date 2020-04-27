@@ -12,6 +12,7 @@ function reset(x,y,z){
     setTimeout(function(){
         location.reload();
     },1000)
+    document.querySelector('#page2').innerHTML='<h1>you won</h1>'
    
 }
 function checkWinner(){
@@ -21,38 +22,40 @@ function checkWinner(){
         
     }// check row winner
     if(array[1]==array[2]&&array[2]==array[3]&& array[1]!==""){
-        console.log("player " + array[1]+ " is the winner")
+        alert("player " + array[1]+ " is the winner")
         reset(1,2,3)
+        
+       
         
     }
     if(array[4]==array[5]&&array[5]==array[6]&& array[4]!==""){
-        console.log("player " + array[4]+ " is the winner")
+        alert("player " + array[4]+ " is the winner")
         reset(4,5,6)
     }
     if(array[7]==array[8]&&array[8]==array[9]&& array[7]!==""){
-        console.log("player " + array[7]+ " is the winner")
+        alert("player " + array[7]+ " is the winner")
         reset(7,8,9)
     }
     // check colomn winner
     if(array[1]==array[4]&&array[4]==array[7]&& array[1]!==""){
-        console.log("player " + array[1]+ " is the winner")
+        alert("player " + array[1]+ " is the winner")
         reset(1,4,7)
     }
     if(array[2]==array[5]&&array[5]==array[8]&& array[2]!==""){
-        console.log("player " + array[2]+ " is the winner")
+        alert("player " + array[2]+ " is the winner")
         reset(2,5,8)
     }
     if(array[3]==array[6]&&array[6]==array[9]&& array[3]!==""){
-        console.log("player " + array[3]+ " is the winner")
+        alert("player " + array[3]+ " is the winner")
         reset(3,6,9)
     }
     // check diagonal winner
     if(array[1]==array[5]&&array[5]==array[9]&& array[1]!==""){
-        console.log("player " + array[1]+ " is the winner")
+        alert("player " + array[1]+ " is the winner")
         reset(1,5,9)
     }
     if(array[3]==array[5]&&array[5]==array[7]&& array[3]!==""){
-        console.log("player " + array[3]+ " is the winner")
+        alert("player " + array[3]+ " is the winner")
         reset(3,5,7)
     }
 }
