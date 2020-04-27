@@ -1,0 +1,26 @@
+
+body{
+    background-color: rgba(0, 0, 0, 0.856);
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    align-content: center;
+    justify-content: center;
+}
+.tic{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.884);
+    border: 1px solid goldenrod;
+    border-radius: 5px;
+    font-size: 80px;
+    color: goldenrod;
+    text-align: center;
+    font-family: sans-serif;
+    cursor: pointer;
+
+}
+
