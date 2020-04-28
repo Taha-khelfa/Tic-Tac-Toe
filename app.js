@@ -17,7 +17,7 @@ function reset(x,y,z){
 }
 function checkWinner(){
     var array = [] ;
-    for(var i= 1;i<=9;i++){
+    for(var i= 1; i<=9 ; i++){
         array[i]= document.getElementById('R'+i).innerHTML
         
     }// check row winner
