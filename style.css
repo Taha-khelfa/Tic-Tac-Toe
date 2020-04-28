@@ -1,7 +1,7 @@
 
 body{
     background-color: rgba(0, 0, 0, 0.856);
-    overflow: hidden;
+   
 }
 .container{
     width: 100vw;
@@ -28,13 +28,13 @@ body{
     color : goldenrod;
     font-size: 40px;
     text-align: center;
-    visibility:hidden;
+   
 }
 .page3 p{
     color : goldenrod;
     font-size: 40px;
     text-align: center;
-    visibility:hidden;
+    
 }
 button{
     text-align: center;
@@ -44,6 +44,6 @@ button{
     width: 100px;
     height: 70px;
     margin-left: 50%;
-    visibility:hidden;
+    
 }
 
